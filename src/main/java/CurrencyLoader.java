@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class CurrencyLoader {
+import java.util.List;
+
+public interface CurrencyLoader {
+    List<Currency> load();
 }
